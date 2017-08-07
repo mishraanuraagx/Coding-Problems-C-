@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Leetcode\FizzBuzz.cs" />
     <Compile Include="Leetcode\LongestPalindrome.cs" />
+    <Compile Include="Leetcode\MatrixReshape.cs" />
     <Compile Include="Leetcode\NumberOfBoomerangs.cs" />
     <Compile Include="Leetcode\SearchMatrix.cs" />
     <Compile Include="Program.cs" />

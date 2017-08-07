@@ -18,7 +18,8 @@ namespace Coding_Problems
 
             //LongestPalindrome.run();
             //NumberOfBoomerangs.run();
-            SearchMatrix.run();
+            //SearchMatrix.run();
+            MatrixReshape.run();
             Console.ReadKey();
 
         }
