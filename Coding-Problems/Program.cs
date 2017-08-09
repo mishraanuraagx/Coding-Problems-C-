@@ -19,7 +19,10 @@ namespace Coding_Problems
             //LongestPalindrome.run();
             //NumberOfBoomerangs.run();
             //SearchMatrix.run();
-            MatrixReshape.run();
+            //MatrixReshape.run();
+            //IslandPerimeter.run();
+            //FindComplement.run();
+            FindWords.run();
             Console.ReadKey();
 
         }

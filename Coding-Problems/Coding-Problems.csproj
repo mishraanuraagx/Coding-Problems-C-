@@ -58,7 +58,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Leetcode\FindComplement.cs" />
+    <Compile Include="Leetcode\FindWords.cs" />
     <Compile Include="Leetcode\FizzBuzz.cs" />
+    <Compile Include="Leetcode\IslandPerimeter.cs" />
     <Compile Include="Leetcode\LongestPalindrome.cs" />
     <Compile Include="Leetcode\MatrixReshape.cs" />
     <Compile Include="Leetcode\NumberOfBoomerangs.cs" />
