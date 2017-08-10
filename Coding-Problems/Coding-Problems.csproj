@@ -58,13 +58,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Leetcode\ConstructMaximumBinaryTree.cs" />
     <Compile Include="Leetcode\FindComplement.cs" />
+    <Compile Include="Leetcode\FindTarget.cs" />
     <Compile Include="Leetcode\FindWords.cs" />
     <Compile Include="Leetcode\FizzBuzz.cs" />
     <Compile Include="Leetcode\IslandPerimeter.cs" />
     <Compile Include="Leetcode\LongestPalindrome.cs" />
+    <Compile Include="Leetcode\LongestUncommonSubsequenceI.cs" />
     <Compile Include="Leetcode\MatrixReshape.cs" />
     <Compile Include="Leetcode\NumberOfBoomerangs.cs" />
+    <Compile Include="Leetcode\ReverseWords.cs" />
     <Compile Include="Leetcode\SearchMatrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
