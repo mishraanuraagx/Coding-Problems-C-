@@ -58,6 +58,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Leetcode\ArrayPairSum.cs" />
+    <Compile Include="Leetcode\AverageOfLevels.cs" />
     <Compile Include="Leetcode\ConstructMaximumBinaryTree.cs" />
     <Compile Include="Leetcode\FindComplement.cs" />
     <Compile Include="Leetcode\FindTarget.cs" />
@@ -67,7 +69,10 @@
     <Compile Include="Leetcode\LongestPalindrome.cs" />
     <Compile Include="Leetcode\LongestUncommonSubsequenceI.cs" />
     <Compile Include="Leetcode\MatrixReshape.cs" />
+    <Compile Include="Leetcode\MergeTrees.cs" />
+    <Compile Include="Leetcode\NextGreaterElement.cs" />
     <Compile Include="Leetcode\NumberOfBoomerangs.cs" />
+    <Compile Include="Leetcode\PrintTree.cs" />
     <Compile Include="Leetcode\ReverseWords.cs" />
     <Compile Include="Leetcode\SearchMatrix.cs" />
     <Compile Include="Program.cs" />

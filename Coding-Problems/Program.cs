@@ -27,7 +27,12 @@ namespace Coding_Problems
             //ReverseWords.run();
             //LongestUncommonSubsequenceI.run();
             //FindTarget.run();
-            ConstructMaximumBinaryTree.run();
+            //ConstructMaximumBinaryTree.run();
+            //PrintTree.run();
+            //MergeTrees.run();
+            //ArrayPairSum.run();
+            //NextGreaterElement.run();
+            AverageOfLevels.run();
             Console.ReadKey();
 
         }
