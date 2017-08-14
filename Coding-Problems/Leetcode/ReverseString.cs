@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Text;
 namespace Coding_Problem
 {
     class ReverseString
@@ -19,13 +19,13 @@ namespace Coding_Problem
             /*
              *Array.Reverse(c);
              */
-            String ReverseString = "";
+            StringBuilder ReverseString = new StringBuilder();
             for (int i = c.Length - 1; i >= 0; i--)
             {
-                ReverseString += c[i];
+                ReverseString.Append(c[i]);
             }
 
-            return ReverseString;
+            return ReverseString.ToString();
 
         }
 

@@ -58,23 +58,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Leetcode\AddDigits.cs" />
     <Compile Include="Leetcode\ArrayPairSum.cs" />
     <Compile Include="Leetcode\AverageOfLevels.cs" />
+    <Compile Include="Leetcode\CanWinNim.cs" />
     <Compile Include="Leetcode\ConstructMaximumBinaryTree.cs" />
+    <Compile Include="Leetcode\DetectCapitalUse.cs" />
+    <Compile Include="Leetcode\DistributeCandies.cs" />
     <Compile Include="Leetcode\FindComplement.cs" />
+    <Compile Include="Leetcode\FindDisappearedNumbers.cs" />
+    <Compile Include="Leetcode\FindMaxConsecutiveOnes.cs" />
     <Compile Include="Leetcode\FindTarget.cs" />
     <Compile Include="Leetcode\FindWords.cs" />
     <Compile Include="Leetcode\FizzBuzz.cs" />
+    <Compile Include="Leetcode\GetSum.cs" />
+    <Compile Include="Leetcode\InvertTree.cs" />
     <Compile Include="Leetcode\IslandPerimeter.cs" />
+    <Compile Include="Leetcode\LeetCodeWeeklyContest45_2017.cs" />
     <Compile Include="Leetcode\LongestPalindrome.cs" />
     <Compile Include="Leetcode\LongestUncommonSubsequenceI.cs" />
     <Compile Include="Leetcode\MatrixReshape.cs" />
+    <Compile Include="Leetcode\MaxDepth.cs" />
     <Compile Include="Leetcode\MergeTrees.cs" />
     <Compile Include="Leetcode\NextGreaterElement.cs" />
     <Compile Include="Leetcode\NumberOfBoomerangs.cs" />
     <Compile Include="Leetcode\PrintTree.cs" />
     <Compile Include="Leetcode\ReverseWords.cs" />
     <Compile Include="Leetcode\SearchMatrix.cs" />
+    <Compile Include="Leetcode\SingleNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Leetcode\ReverseString.cs" />

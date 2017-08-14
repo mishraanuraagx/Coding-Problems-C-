@@ -32,7 +32,18 @@ namespace Coding_Problems
             //MergeTrees.run();
             //ArrayPairSum.run();
             //NextGreaterElement.run();
-            AverageOfLevels.run();
+            //AverageOfLevels.run();
+            //ReverseString.run();
+            //DistributeCandies.run();
+            //CanWinNim.run();
+            //SingleNumber.run();
+            //FindMaxConsecutiveOnes.run();
+            //DetectCapitalUse.run();
+            //InvertTree.run();
+            //FindDisappearedNumbers.run();
+            //GetSum.run();
+            //AddDigits.run();
+            LeetCodeWeeklyContest45_2017.run();
             Console.ReadKey();
 
         }
