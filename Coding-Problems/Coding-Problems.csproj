@@ -65,6 +65,7 @@
     <Compile Include="Leetcode\ConstructMaximumBinaryTree.cs" />
     <Compile Include="Leetcode\DetectCapitalUse.cs" />
     <Compile Include="Leetcode\DistributeCandies.cs" />
+    <Compile Include="Leetcode\EasyProblems.cs" />
     <Compile Include="Leetcode\FindComplement.cs" />
     <Compile Include="Leetcode\FindDisappearedNumbers.cs" />
     <Compile Include="Leetcode\FindMaxConsecutiveOnes.cs" />

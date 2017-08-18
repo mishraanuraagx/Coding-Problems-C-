@@ -43,7 +43,8 @@ namespace Coding_Problems
             //FindDisappearedNumbers.run();
             //GetSum.run();
             //AddDigits.run();
-            LeetCodeWeeklyContest45_2017.run();
+            //LeetCodeWeeklyContest45_2017.run();
+            EasyProblems.run();
             Console.ReadKey();
 
         }
