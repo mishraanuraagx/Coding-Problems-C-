@@ -40,8 +40,11 @@ namespace Coding_Problems.Leetcode
             //ep.MoveZeroes(new int[] { 0, 1, 0, 3, 12 });
             //ep.MoveZeroes(new int[] { 1 });
             //ep.MoveZeroes(new int[] { 0, 0, 0, 1 });
-            Console.WriteLine(String.Join(", ", ep.ConstructRectangle(40)));
-            Console.WriteLine(String.Join(", ", ep.ConstructRectangle(2)));
+            //Console.WriteLine(String.Join(", ", ep.ConstructRectangle(40)));
+            //Console.WriteLine(String.Join(", ", ep.ConstructRectangle(2)));
+            //Console.WriteLine(ep.MaxCount(40000, 40000, new int[,] { { 2, 2 }, { 4, 3 } }));
+            //Console.WriteLine(ep.MaxCount(4, 3, new int[,] { }));
+            Console.WriteLine(ep.MinMoves(new int[] { 1, 2, 3 }));
         }
 
         public char FindTheDifference(string s, string t)
@@ -249,7 +252,79 @@ namespace Coding_Problems.Leetcode
 
         public int MaxCount(int m, int n, int[,] ops)
         {
+            int[] firstRow = new int[m];
+            int[] firstCol = new int[n];
 
+
+            //iterate through first row and first col only
+            for (int i = 0; i < ops.GetLength(0); i++)
+            {
+                int j = ops[i, 0], k = ops[i, 1];
+                for (int p = 0; p < j; p++)
+                {
+                    firstRow[p]++;
+                }
+
+                for (int o = 0; o < k; o++)
+                {
+                    firstCol[o]++;
+                }
+
+
+
+            }
+
+
+            //checking for first row only
+            int maxValue = firstCol[0];
+            int a = 0, b = 0;
+            for (a = 0; a < m; a++)
+            {
+                if (firstRow[a] != maxValue)
+                {
+                    break;
+                }
+            }
+
+            //checking for first col only
+            for (b = 0; b < n; b++)
+            {
+                if (firstCol[b] != maxValue)
+                {
+                    break;
+                }
+            }
+            return a * b;
+        }
+
+        public int MinMoves(int[] nums)
+        {
+            Dictionary<int, int> numsMap = new Dictionary<int, int>();
+            int min = int.MaxValue;
+            foreach (var item in nums)
+            {
+                if (item < min)
+                {
+                    min = item;
+                }
+                int count = 0;
+                numsMap.TryGetValue(item, out count);
+                if (count == 0)
+                {
+                    numsMap.Add(item, 1);
+                }
+                else
+                {
+                    numsMap[item]++;
+                }
+            }
+            int minMoves = 0;
+
+            foreach (var item in numsMap)
+            {
+                minMoves += (item.Key - min) * item.Value;
+            }
+            return minMoves;
         }
     }
 }
